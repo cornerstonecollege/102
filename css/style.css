@@ -1,0 +1,54 @@
+#all {
+  height: 100%;
+  width: 100%;
+  background-color: #fff3b4;
+  position: relative;
+}
+
+.coloured-div {
+  height: 31.2%;
+  width: 98%;
+  top: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+#div-red {
+  text-align: center;
+  background-color: #ffb6af;
+}
+
+#div-green {
+  text-align: center;
+  background-color: #d3ffaf;
+}
+
+#div-blue {
+  background-color: #bfceff;
+}
+
+#div-profile {
+  position: relative;
+  height: 90%;
+  top: 5%;
+}
+
+#div-profile img {
+  position: relative;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#div-green span {
+  font-family: fantasy;
+  font-size: 60px;
+  position: relative;
+  top: 30%;
+}
+
+#div-move {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+}

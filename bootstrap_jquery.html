@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Bootstrap</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_bootstrap.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script_bootstrap_jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="col1" class="col-xs-3 cols bg-warning">
+          <img class="img-circle" src="img/profile.png" alt="Profile Picture" />
+        </div>
+        <div id="col2" class="col-xs-3 cols bg-success">
+          <h1>Bootstrap</h1>
+        </div>
+        <div id="col3" class="col-xs-3 cols bg-info">
+          <span>dsdds</span>
+        </div>
+        <div id="col4" class="col-xs-3 cols bg-danger">
+          <span>dsdds</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <table class="table table-striped" id="myTable">
+            <thead>
+              <tr>
+                <td>
+                  <span><b>1st</b></span>
+                </td>
+                <td>
+                  <span><b>2nd</b></span>
+                </td>
+                <td>
+                  <span><b>3rd</b></span>
+                </td>
+                <td>
+                  <span><b>4th</b></span>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="success">
+                <td>
+                  <span>2</span>
+                </td>
+                <td>
+                  <span>3</span>
+                </td>
+                <td>
+                  <span>4</span>
+                </td>
+                <td>
+                  <!-- this column is empty -->
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <!-- this column is empty -->
+                </td>
+                <td>
+                  <span>5</span>
+                </td>
+                <td>
+                  <span>6</span>
+                </td>
+                <td>
+                  <span>7</span>
+                </td>
+              </tr>
+              <tr id="mytr" class="danger">
+                <td>
+                  <!-- this column is empty -->
+                </td>
+                <td>
+                  <span>8</span>
+                </td>
+                <td>
+                  <span>9</span>
+                </td>
+                <td>
+                  <span>0</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span>1</span>
+                </td>
+                <td>
+                  <!-- this column is empty -->
+                </td>
+                <td>
+                  <!-- this column is empty -->
+                </td>
+                <td>
+                  <!-- this column is empty -->
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>
+                  <span>footer 1</span>
+                </td>
+                <td>
+                  <span>footer 2</span>
+                </td>
+                <td>
+                  <span>footer 3</span>
+                </td>
+                <td>
+                  <span>footer 4</span>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6">
+          <form action="#">
+            <div class="form-group">
+              <label for="inEmail">E-mail:</label>
+              <input placeholder="example@email.com" class="form-control" id="inEmail" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="inPassword">Password:</label>
+              <input class="form-control" id="inPassword" type="password" />
+            </div>
+            <button type="submit" id="btnLogin" class="btn btn-default">Login</button>
+          </form>
+          <span id="result"></span>
+        </div>
+        <div class="col-xs-3">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,10 +1,8 @@
-# Luiz Peres Portfolio
-I am teaching my students how to use the GitHub.
+# 102 HTML Class
+I am teaching my students how to use GitHub.
 
 - [x] MADP 104 - Project Management
-- [ ] MADP 101 - Web and Mobile Technologies
-- [ ] Web Development
+- [x] MADP 101 - Web and Mobile Technologies
+- [ ] MADP 102 - Web Development
  
-### Status
 
-This project is not completed yet, once I am still teaching the class.

@@ -57,8 +57,9 @@ $(function(){
         i = i + 1;
       }
 
+      // put the scroll at the bottom
       $("#txtChat").scrollTop($("#txtChat")[0].scrollHeight);
     });
-  }, 1000);
+  }, 1000); // call it every second
 
 });

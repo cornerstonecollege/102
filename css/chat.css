@@ -1,0 +1,17 @@
+body,
+html,
+.container,
+#colMessage {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+textarea.form-control {
+  height: 100%;
+}
+
+#rowMessage {
+  position: relative;
+  height: 90%;
+}
